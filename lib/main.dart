@@ -35,7 +35,7 @@ class MyApp extends StatelessWidget {
         '/lista-telefonica': (context) => const ListaTelefonica(),
         '/cadastro-pessoa': (context) => CadastroPessoaApp(),
 
-        '/salvar-pessoa-local': (context) => const SalvarPessoaLocalScreen(),
+        '/menu-sqlite': (context) => const SalvarPessoaLocalScreen(),
         '/form-pessoa': (context) => const FormPessoaScreen(),
         '/listar-pessoas': (context) => const ListarPessoasScreen(),
       },

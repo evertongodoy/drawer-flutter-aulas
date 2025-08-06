@@ -58,7 +58,7 @@ class _HomePageState extends State<HomePage> {
             ListTile(
               title: const Text('Salvar Pessoa SQLite'),
               onTap: () {
-                Navigator.pushNamed(context, '/menu-sqlitesalvar-pessoa-local');
+                Navigator.pushNamed(context, '/menu-sqlite');
               },
             ),
           ],
