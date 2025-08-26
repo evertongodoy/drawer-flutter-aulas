@@ -1,3 +1,4 @@
+import 'package:drawer_aula/screens/Flow1Screen.dart';
 import 'package:drawer_aula/screens/cadastro_pessoa.dart';
 import 'package:drawer_aula/screens/calculadora.dart';
 import 'package:drawer_aula/screens/conversor_temperatura.dart';
@@ -38,6 +39,7 @@ class MyApp extends StatelessWidget {
         '/menu-sqlite': (context) => const SalvarPessoaLocalScreen(),
         '/form-pessoa': (context) => const FormPessoaScreen(),
         '/listar-pessoas': (context) => const ListarPessoasScreen(),
+        '/flow_1': (context) => const Flow1Screen()
       },
     );
   }
